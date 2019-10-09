@@ -38,5 +38,7 @@ namespace _2doParcialDislaEscanio
         public virtual ICollection<Orders> Orders { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Territories> Territories { get; set; }
+        
+        public string Hola {get; set;}
     }
 }
